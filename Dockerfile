@@ -2,7 +2,7 @@ FROM rocker/shiny-verse:latest
 
 RUN R -e "install.packages(c('dplyr', 'tibble', 'anchors', 'plyr', 'reshape2', 'janitor'))"
 
-RUN apt update && apt install git
+RUN apt-get update && apt-get install -y git
 
 RUN cd /srv/shiny-server && git clone https://github.com/prasiddhigyawali/r-shiny_app.git
 
