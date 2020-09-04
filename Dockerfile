@@ -1,6 +1,6 @@
-FROM cyversevice/shiny-verse
+FROM rocker/shiny-verse:latest
 
-RUN R -e "install.packages(c(‘tidyverse’, ‘dplyr’, ‘tibble’, ‘anchors’, ‘plyr’, ‘reshape2’, ‘janitor’))”
+RUN R -e "install.packages(c('dplyr', 'tibble', 'anchors', 'plyr', 'reshape2', 'janitor'))"
 
 RUN cd /srv/shiny-server && git clone https://github.com/prasiddhigyawali/r-shiny_app.git
 
