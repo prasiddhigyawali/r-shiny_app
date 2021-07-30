@@ -1,0 +1,115 @@
+/* importing fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/* background color + site margin */
+html {
+  background-color: #FDF6F0;
+  margin: 30px;
+}
+
+/* name */
+.name {
+  color: #001E6C;
+  background-color: #F8E2CF;
+  height: 50px;
+  width: 630px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 75px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
+
+/* div: abt-me */
+.abt-me {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+/* abt-me picture */
+.photo {
+  float: left;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px soild #001E6C;
+  margin-right: 30px;
+}
+
+/* abt-me text */
+.bio {
+  font-family: 'Source Sans Pro';
+  color: #001E6C;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  float: right;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* nav: buttons */
+.buttons {
+  height: 100px;
+  width: 630px;
+  margin: auto;
+  align-items: center;
+}
+
+/* individual button design */
+button {
+  height: 60px;
+  width: 200px;
+  margin: 2.5px;
+  color: #001E6C;
+  border: 3px solid #FCD8D4;
+  background-color: #FCD8D4;
+  border-radius: 10px;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+}
+
+/* individual button design + hover */
+button:hover {
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  color: #001E6C;
+  cursor: pointer;
+  border: 3px solid #F5C6AA;
+  background-color: #F5C6AA;
+  border-radius: 10px;
+  box-shadow: 1px 2px #E6DDC6;
+}
+
+/* adding padding to buttons */
+.adding-padding {
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+/* footer */
+.contact-info {
+  font-size: 20px;
+  text-align: center;
+  color: #001E6C;
+  background-color: #F8E2CF;
+  width: 630px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'Source Sans Pro';
+  border-radius: 10px;
+}
